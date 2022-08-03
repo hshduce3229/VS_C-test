@@ -16,7 +16,7 @@ int main()
 
     while(true)
     {
-        sleep(2);
+        sleep(3);
         pbase1->Run();
         pbase2->Run();
     }
