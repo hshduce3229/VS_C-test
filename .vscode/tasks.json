@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "g++ build and active file",
+        "command": "/usr/bin/g++",
+        "args": [
+          "-g",
+          "${file}",
+          "-o",
+          "${fileDirname}/build/CMake_test"
+        ],
+        "options": {
+          "cwd": "/usr/bin"
+        },
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "group": "build"
+      },
+      {
+        "type": "cmake",
+        "label": "CMake: build",
+        "command": "build",
+        "targets": [
+          "all"
+        ],
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "CMake template build task"
+      },
+    ]
+  }

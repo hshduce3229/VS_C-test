@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hongsh/build/foo.h
+
+/home/hongsh/build/main.cpp
+unistd.h
+-
+iostream
+-
+string
+-
+foo.h
+/home/hongsh/build/foo.h
+

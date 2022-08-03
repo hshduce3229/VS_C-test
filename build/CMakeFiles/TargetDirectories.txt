@@ -1,0 +1,3 @@
+/home/hongsh/build/build/CMakeFiles/rebuild_cache.dir
+/home/hongsh/build/build/CMakeFiles/edit_cache.dir
+/home/hongsh/build/build/CMakeFiles/CMake_test.dir
