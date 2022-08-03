@@ -4,21 +4,21 @@
 #include <unistd.h>
 #include <iostream>
 #include <string>
-#include "foo.h"
+
 
 using namespace std;
 
 int main()
 {
-    
-    foo();
-    cDog* pdog  = new cDog;
+
+    cBaseObj* pbase1  = new cDog();
+    cBaseObj* pbase2  = new cChar();
 
     while(true)
     {
         sleep(1);
-        pdog->Run();
-        //CharName();
+        pbase1->Run();
+        pbase2->Run();
     }
     return 0;
 }

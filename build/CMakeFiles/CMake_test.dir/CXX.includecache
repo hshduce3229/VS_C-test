@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/hongsh/build/bar.cpp
+bar.h
 /home/hongsh/build/bar.h
 stdio.h
 -
 
-/home/hongsh/build/char.h
+/home/hongsh/build/bar.h
+baseobj.h
+/home/hongsh/build/baseobj.h
 
-/home/hongsh/build/foo.h
+/home/hongsh/build/baseobj.h
+
+/home/hongsh/build/char.h
+baseobj.h
+/home/hongsh/build/baseobj.h
 
 /home/hongsh/build/main.cpp
 bar.h
@@ -25,6 +33,4 @@ iostream
 -
 string
 -
-foo.h
-/home/hongsh/build/foo.h
 

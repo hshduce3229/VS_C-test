@@ -4,12 +4,16 @@
 CMakeFiles/CMake_test.dir/bar.cpp.o
  /home/hongsh/build/bar.cpp
  /home/hongsh/build/bar.h
+ /home/hongsh/build/baseobj.h
+CMakeFiles/CMake_test.dir/baseobj.cpp.o
+ /home/hongsh/build/baseobj.cpp
+ /home/hongsh/build/baseobj.h
 CMakeFiles/CMake_test.dir/char.cpp.o
+ /home/hongsh/build/baseobj.h
  /home/hongsh/build/char.cpp
-CMakeFiles/CMake_test.dir/foo.cpp.o
- /home/hongsh/build/foo.cpp
+ /home/hongsh/build/char.h
 CMakeFiles/CMake_test.dir/main.cpp.o
  /home/hongsh/build/bar.h
+ /home/hongsh/build/baseobj.h
  /home/hongsh/build/char.h
- /home/hongsh/build/foo.h
  /home/hongsh/build/main.cpp

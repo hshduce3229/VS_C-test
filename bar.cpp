@@ -1,4 +1,5 @@
 #include "bar.h"
+#include <stdio.h>
 
 cDog::cDog()
 {
@@ -7,7 +8,7 @@ cDog::cDog()
 }
 void cDog::Run()
 {
-
+    cBaseObj::Run();
     printf("%d type Mung Mung~\n" , mytype); 
-
+    
 }

@@ -1,13 +1,11 @@
-#include<stdio.h>
-
-class  cDog
+#include "baseobj.h"
+class  cDog : public cBaseObj
 {
 
-    int mytype  ;
 public:
  
     cDog();
-    void Run();
+    virtual void Run();
 };
 
 

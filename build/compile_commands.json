@@ -6,8 +6,8 @@
 },
 {
   "directory": "/home/hongsh/build/build",
-  "command": "/usr/bin/g++    -g   -o CMakeFiles/CMake_test.dir/foo.cpp.o -c /home/hongsh/build/foo.cpp",
-  "file": "/home/hongsh/build/foo.cpp"
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/CMake_test.dir/baseobj.cpp.o -c /home/hongsh/build/baseobj.cpp",
+  "file": "/home/hongsh/build/baseobj.cpp"
 },
 {
   "directory": "/home/hongsh/build/build",

@@ -150,6 +150,33 @@ bar.cpp.s:
 	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/bar.cpp.s
 .PHONY : bar.cpp.s
 
+baseobj.o: baseobj.cpp.o
+
+.PHONY : baseobj.o
+
+# target to build an object file
+baseobj.cpp.o:
+	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/baseobj.cpp.o
+.PHONY : baseobj.cpp.o
+
+baseobj.i: baseobj.cpp.i
+
+.PHONY : baseobj.i
+
+# target to preprocess a source file
+baseobj.cpp.i:
+	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/baseobj.cpp.i
+.PHONY : baseobj.cpp.i
+
+baseobj.s: baseobj.cpp.s
+
+.PHONY : baseobj.s
+
+# target to generate assembly for a file
+baseobj.cpp.s:
+	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/baseobj.cpp.s
+.PHONY : baseobj.cpp.s
+
 char.o: char.cpp.o
 
 .PHONY : char.o
@@ -176,33 +203,6 @@ char.s: char.cpp.s
 char.cpp.s:
 	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/char.cpp.s
 .PHONY : char.cpp.s
-
-foo.o: foo.cpp.o
-
-.PHONY : foo.o
-
-# target to build an object file
-foo.cpp.o:
-	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/foo.cpp.o
-.PHONY : foo.cpp.o
-
-foo.i: foo.cpp.i
-
-.PHONY : foo.i
-
-# target to preprocess a source file
-foo.cpp.i:
-	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/foo.cpp.i
-.PHONY : foo.cpp.i
-
-foo.s: foo.cpp.s
-
-.PHONY : foo.s
-
-# target to generate assembly for a file
-foo.cpp.s:
-	$(MAKE) -f CMakeFiles/CMake_test.dir/build.make CMakeFiles/CMake_test.dir/foo.cpp.s
-.PHONY : foo.cpp.s
 
 main.o: main.cpp.o
 
@@ -243,12 +243,12 @@ help:
 	@echo "... bar.o"
 	@echo "... bar.i"
 	@echo "... bar.s"
+	@echo "... baseobj.o"
+	@echo "... baseobj.i"
+	@echo "... baseobj.s"
 	@echo "... char.o"
 	@echo "... char.i"
 	@echo "... char.s"
-	@echo "... foo.o"
-	@echo "... foo.i"
-	@echo "... foo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

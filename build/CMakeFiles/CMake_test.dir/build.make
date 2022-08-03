@@ -70,18 +70,18 @@ CMakeFiles/CMake_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMake_test.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hongsh/build/main.cpp -o CMakeFiles/CMake_test.dir/main.cpp.s
 
-CMakeFiles/CMake_test.dir/foo.cpp.o: CMakeFiles/CMake_test.dir/flags.make
-CMakeFiles/CMake_test.dir/foo.cpp.o: ../foo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hongsh/build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMake_test.dir/foo.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMake_test.dir/foo.cpp.o -c /home/hongsh/build/foo.cpp
+CMakeFiles/CMake_test.dir/baseobj.cpp.o: CMakeFiles/CMake_test.dir/flags.make
+CMakeFiles/CMake_test.dir/baseobj.cpp.o: ../baseobj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hongsh/build/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMake_test.dir/baseobj.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CMake_test.dir/baseobj.cpp.o -c /home/hongsh/build/baseobj.cpp
 
-CMakeFiles/CMake_test.dir/foo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMake_test.dir/foo.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hongsh/build/foo.cpp > CMakeFiles/CMake_test.dir/foo.cpp.i
+CMakeFiles/CMake_test.dir/baseobj.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMake_test.dir/baseobj.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hongsh/build/baseobj.cpp > CMakeFiles/CMake_test.dir/baseobj.cpp.i
 
-CMakeFiles/CMake_test.dir/foo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMake_test.dir/foo.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hongsh/build/foo.cpp -o CMakeFiles/CMake_test.dir/foo.cpp.s
+CMakeFiles/CMake_test.dir/baseobj.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMake_test.dir/baseobj.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hongsh/build/baseobj.cpp -o CMakeFiles/CMake_test.dir/baseobj.cpp.s
 
 CMakeFiles/CMake_test.dir/bar.cpp.o: CMakeFiles/CMake_test.dir/flags.make
 CMakeFiles/CMake_test.dir/bar.cpp.o: ../bar.cpp
@@ -112,7 +112,7 @@ CMakeFiles/CMake_test.dir/char.cpp.s: cmake_force
 # Object files for target CMake_test
 CMake_test_OBJECTS = \
 "CMakeFiles/CMake_test.dir/main.cpp.o" \
-"CMakeFiles/CMake_test.dir/foo.cpp.o" \
+"CMakeFiles/CMake_test.dir/baseobj.cpp.o" \
 "CMakeFiles/CMake_test.dir/bar.cpp.o" \
 "CMakeFiles/CMake_test.dir/char.cpp.o"
 
@@ -120,7 +120,7 @@ CMake_test_OBJECTS = \
 CMake_test_EXTERNAL_OBJECTS =
 
 CMake_test: CMakeFiles/CMake_test.dir/main.cpp.o
-CMake_test: CMakeFiles/CMake_test.dir/foo.cpp.o
+CMake_test: CMakeFiles/CMake_test.dir/baseobj.cpp.o
 CMake_test: CMakeFiles/CMake_test.dir/bar.cpp.o
 CMake_test: CMakeFiles/CMake_test.dir/char.cpp.o
 CMake_test: CMakeFiles/CMake_test.dir/build.make
