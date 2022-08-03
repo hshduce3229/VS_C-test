@@ -12,3 +12,6 @@ void cDog::Run()
     printf("%d type Mung Mung~\n" , mytype); 
     
 }
+
+
+

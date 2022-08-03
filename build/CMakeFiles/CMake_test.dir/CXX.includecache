@@ -18,19 +18,3 @@ baseobj.h
 
 /home/hongsh/build/baseobj.h
 
-/home/hongsh/build/char.h
-baseobj.h
-/home/hongsh/build/baseobj.h
-
-/home/hongsh/build/main.cpp
-bar.h
-/home/hongsh/build/bar.h
-char.h
-/home/hongsh/build/char.h
-unistd.h
--
-iostream
--
-string
--
-
